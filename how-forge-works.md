@@ -2,9 +2,11 @@
 
 Forge는 코드 생성기가 아니라 AI 산출물의 납품을 통제하는 곳입니다. 레거시 전환을 에이전트가 수행하고, 반영 전에 검토·테스트·승인 기록을 남깁니다.
 
-<div align="center">
-  <img src="https://raw.githubusercontent.com/klaroworks/handbook/main/assets/forge-pipeline.png" alt="분석 → 전환 → Evidence → Approval → 납품" width="100%">
-</div>
+```mermaid
+%%{init: {'theme':'base','themeVariables':{'primaryColor':'#EEF3FF','primaryBorderColor':'#2460EA','primaryTextColor':'#0C1224','secondaryColor':'#F4F6FA','tertiaryColor':'#FFFFFF','lineColor':'#2460EA','fontSize':'15px'}}}%%
+flowchart LR
+  A["분석<br/>코드 · SQL 구조"] --> B["전환<br/>AI 에이전트"] --> C["Evidence<br/>컴파일 · SQL Diff"] --> D["Approval<br/>TA · AA · QA · PM"] --> E["납품<br/>승인 준비 보고서"]
+```
 
 ## "컴파일 성공"으로 끝내지 않는다
 

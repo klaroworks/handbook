@@ -2,9 +2,11 @@
 
 Hub가 "쓸 만한 AI"를 만드는 방식입니다. 화려한 데모보다 틀리지 않는 것에서 시작합니다.
 
-<div align="center">
-  <img src="https://raw.githubusercontent.com/klaroworks/handbook/main/assets/hub-pipeline.png" alt="연결 → 근거 → 초안 → 검토·승인 → 감사" width="100%">
-</div>
+```mermaid
+%%{init: {'theme':'base','themeVariables':{'primaryColor':'#EEF3FF','primaryBorderColor':'#2460EA','primaryTextColor':'#0C1224','secondaryColor':'#F4F6FA','tertiaryColor':'#FFFFFF','lineColor':'#2460EA','fontSize':'15px'}}}%%
+flowchart LR
+  A["연결<br/>문서 · DB · API"] --> B["근거<br/>원문 인용 · 하이브리드 검색"] --> C["초안<br/>근거 포함 · 한글 HWPX"] --> D["검토 · 승인<br/>담당자 HITL"] --> E["감사<br/>모델 · 근거 · 버전"]
+```
 
 ## 근거를 먼저 모은다
 

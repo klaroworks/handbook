@@ -7,9 +7,9 @@
 > 주식회사 클라로 · Seoul · [klaroworks.ai](https://klaroworks.ai)
 > AI가 문서·데이터·코드 업무를 수행하고, 사람이 검증·승인합니다.
 
-<div align="center">
-  <img src="https://raw.githubusercontent.com/klaroworks/handbook/main/assets/trust-stack.png" alt="근거 · 승인 · 감사" width="94%">
-</div>
+| 근거 · Grounding | 승인 · Human-in-the-Loop | 감사 · Audit |
+|---|---|---|
+| 모든 산출물에 출처가 붙습니다. 원문 인용부터 SQL Diff까지. | 담당자 검토·승인이 워크플로에 들어 있습니다. | 모델·근거·승인·버전 기록. RBAC · PII 마스킹 · 온프레미스. |
 
 ## 목차
 
