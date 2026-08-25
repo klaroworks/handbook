@@ -21,6 +21,7 @@
 - [보안·컴플라이언스](./security-and-compliance.md)
 - [제품 프로세스](./product-process.md) — 문제부터 도입까지
 - [함께 일하는 법](./how-we-work.md)
+- [AI로 일하는 법](./building-with-ai.md) — SDD · 에이전트 · 지식화
 - [의사결정 기록(ADR)](./decisions/)
 
 ## 이 문서에 없는 것
