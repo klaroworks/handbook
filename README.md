@@ -17,6 +17,7 @@
 - [Klaro Hub는 어떻게 작동하나](./how-hub-works.md) — 근거·무환각·평가
 - [Klaro Forge는 어떻게 작동하나](./how-forge-works.md) — 검증·승인·자율성
 - [어떻게 배포하나](./how-we-ship.md) — 개발·리뷰·릴리스
+- [플랫폼과 도입](./platform.md) — 공통 사양 · 도입 형태
 - [보안·컴플라이언스](./security-and-compliance.md)
 - [제품 프로세스](./product-process.md) — 문제부터 도입까지
 - [함께 일하는 법](./how-we-work.md)
